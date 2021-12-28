@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	list-style-type: none;
+	border: 0;
+
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	display: inline-block;
+}
+
+input,
+select {
+	appearance: none;
+	-moz-appearance: none;
+	/* Firefox */
+	-webkit-appearance: none;
+	/* Safari and Chrome */
+}
+
+.clear {
+	clear: both;
+}
+
+.full {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.center {
+	float: none;
+	margin: 0 auto;
+	width: 1200px;
+
+}
+
+.middle {
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+
+}
+
+.top_middle {
+	top: 50%;
+
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+
+.left_middle {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.rel_left {
+	position: relative;
+	float: left;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.d_flex {
+	display: flex;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+.m-center {
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.has-bg {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.has-bg-cover {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.has-bg-cover-top {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
